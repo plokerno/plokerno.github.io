@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boping Li</title>
+<meta name="description" content="Boping Li — electrical and computer engineering student at UT Austin, working in embedded software.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="strip" id="strip"></div>
+
+<div class="bar">
+  <button class="nav" id="back" title="Back" aria-label="Back"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button class="nav" id="fwd" title="Forward" aria-label="Forward"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+  <button class="nav" id="reload" title="Reload" aria-label="Reload"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.4-5.7M20 4v4h-4"/></svg></button>
+  <div class="omni"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span id="url"></span></div>
+</div>
+
+<main class="view" id="view" tabindex="-1"></main>
+
+<!-- The engine. Must load first — it defines site.add(). -->
+<script src="app.js"></script>
+
+<!-- Your name and domain. -->
+<script src="settings.js"></script>
+
+<!-- ═══ YOUR PROJECTS ═══
+     One line per file in projects/. This order is the order of the tiles.
+     To add one: copy projects/_template.js, then add its line here. -->
+<script src="projects/inspire-semiconductor.js"></script>
+<script src="projects/skystar-energy.js"></script>
+<script src="projects/enpower-resources.js"></script>
+<script src="projects/komoricon.js"></script>
+<script src="projects/connect-four.js"></script>
+<script src="projects/fpga-timer.js"></script>
+<script src="projects/garage-controller.js"></script>
+<script src="projects/about.js"></script>
+<!-- ═════════════════════ -->
+
+</body>
+</html>

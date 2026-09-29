@@ -1,5 +1,8 @@
 # Personal site
 
+below is a bunch of ai crap, i think the current form is crap, the browser thing isnt as cool as i thought
+
+
 A personal website shaped like a browser. The home page is a Google-style search
 page; the shortcuts open project pages as tabs, and closing a tab closes the page.
 
